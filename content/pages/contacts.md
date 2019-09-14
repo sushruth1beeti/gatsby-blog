@@ -1,8 +1,6 @@
 ---
 template: page
 title: Todos
-slug: /pages/todos
-draft: true
 ---
 
 
