@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://beeti.netlify.com',
+  url: 'https:/watilearnt.com',
   pathPrefix: '/',
   title: 'Blog by Sushruth Beeti',
   subtitle: 'Learning To Build Things. Building To Learn Things',
@@ -20,14 +20,14 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Todos',
+      path: '/pages/todos'
     }
   ],
   author: {
-    name: 'Sushruth Beeti',
+    name: 'WatILearnt.Com',
     photo: '/avatar.jpg',
-    bio: 'Civil Engineer. Tech Enthusiast. Software Developer. Music Producer.',
+    bio: ' A blog about all the interesting stuff learnt as a software developer.',
     contacts: {
       email: '',
       facebook: '#',
