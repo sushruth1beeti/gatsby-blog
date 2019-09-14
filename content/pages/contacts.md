@@ -21,8 +21,8 @@ __[_https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/013335672
 
 _2) And For Design Patterns, what better book than the book by GOF themselves._
 
-__[_https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtkJ4TqjMpWGxcAjBQfwIFYwSQNQAOk4athXFF5oy-QaE4uydUrhA4aAnc0EALw_wcB\_k\__](https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtkJ4TqjMpWGxcAjBQfwIFYwSQNQAOk4athXFF5oy-QaE4uydUrhA4aAnc0EALw_wcB_k_)__
+__[https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8](https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)__
 
 _Also Head First For Design Patterns is also a good reference with a lot of examples._
 
-__[_https://www.amazon.in/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtDtOqSvstbxewLcvxyrcrDfgNpfwSr5DWYibXlcMYQu3LPLlbQ1JsaAhb7EALw_wcB\_k\__](https://www.amazon.in/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtDtOqSvstbxewLcvxyrcrDfgNpfwSr5DWYibXlcMYQu3LPLlbQ1JsaAhb7EALw_wcB_k_)__
+__[https://www.amazon.in/First-Design-Patterns-Brain-Friendly/dp/0596007124](https://www.amazon.in/First-Design-Patterns-Brain-Friendly/dp/0596007124)__
