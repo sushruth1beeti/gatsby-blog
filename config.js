@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'WatILearnt.Com',
     photo: '/avatar.jpg',
-    bio: ' A blog about all the interesting stuff learnt as a software developer.',
+    bio: ' A blog about all the interesting stuff that I learnt as an everyday software developer.',
     contacts: {
       email: '',
       facebook: '#',
