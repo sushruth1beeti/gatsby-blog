@@ -1,31 +1,30 @@
 ---
-title: "Contact me"
-template: "page"
-socialImage: "/media/image-4.jpg"
+template: page
+title: Todos
+slug: /pages/todos
+draft: true
 ---
 
-Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
 
-Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+I also have certain todos that I need to learn:
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-4.jpg)
+* Recently I have been working with image processing for some tasks, I will update it soon as a dedicated blog. It will be a opencv image processing related blog.
+* Dedicated blogs for Desgin Patterns by GOF, if you never heard of them, you should definitely check them out, if you just started as a developer like me.
+* Well, after image processing my goal would be to learn Computer Vision And Deep Learning, there are some projects I've in my mind which I will share soon.
+* And System Design would definitely be in this list.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+![Todo List](/media/image-4.jpg)
 
-## Header Level 2
+_Here are the references I'm currently using to learn the above topics:_
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+_1) For Image Processing, a book called Digital Image Processing by Gonzalez And Woods, which seems to be a very good book for beginner and pros alike._
 
-+ **Lorem ipsum** dolor sit amet, consectetuer adipiscing elit.
-+ Aliquam tincidunt mauris eu risus.
-+ Vestibulum auctor dapibus neque.
+__[_https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/0133356728_](https://www.amazon.com/Digital-Image-Processing-Rafael-Gonzalez/dp/0133356728)__
 
-### Header Level 3
+_2) And For Design Patterns, what better book than the book by GOF themselves._
 
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec **consectetuer** ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+__[_https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtkJ4TqjMpWGxcAjBQfwIFYwSQNQAOk4athXFF5oy-QaE4uydUrhA4aAnc0EALw_wcB\_k\__](https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtkJ4TqjMpWGxcAjBQfwIFYwSQNQAOk4athXFF5oy-QaE4uydUrhA4aAnc0EALw_wcB_k_)__
 
-Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
+_Also Head First For Design Patterns is also a good reference with a lot of examples._
 
-#### Header Level 4
-
-Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+__[_https://www.amazon.in/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtDtOqSvstbxewLcvxyrcrDfgNpfwSr5DWYibXlcMYQu3LPLlbQ1JsaAhb7EALw_wcB\_k\__](https://www.amazon.in/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY?tag=googinhydr18418-21&tag=kindlecontentin24-21&ascsubtag=_k_Cj0KCQjwn_LrBRD4ARIsAFEQFKtDtOqSvstbxewLcvxyrcrDfgNpfwSr5DWYibXlcMYQu3LPLlbQ1JsaAhb7EALw_wcB_k_)__
