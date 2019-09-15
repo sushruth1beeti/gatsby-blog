@@ -2,7 +2,7 @@
 template: post
 title: What The Hell Are Design Patterns? And Why I Need Them?
 slug: /posts/design-patterns-intro
-draft: true
+draft: false
 date: 2019-09-15T06:28:08.278Z
 description: >-
   We all (humans) look for patterns every day knowingly or not because pattern
