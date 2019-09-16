@@ -10,7 +10,7 @@ description: >
   Patterns in Software Development are no different.
 category: 'Design Patterns '
 tags:
-  - Design Patterns
+  - Design Patterns  GOF
 ---
 Recognizing patterns allow us to predict and expect what is coming and this is what helped us survive and evolve through time. One of our biggest traits. Design Patterns in Software Development are no different, those are the patterns observed as a part of designing reusable object-oriented software.
 
