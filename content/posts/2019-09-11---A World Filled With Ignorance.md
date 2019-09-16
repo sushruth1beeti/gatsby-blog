@@ -1,16 +1,15 @@
 ---
+template: post
 title: A World Filled With Ignorance
-date: "2019-09-11T23:46:37.121Z"
-template: "post"
-draft: false
-slug: "/posts/a-world-filled-with-ignorance/"
-category: "Motivation"
+slug: /posts/a-world-filled-with-ignorance/
+draft: true
+date: '2019-09-11T23:46:37.121Z'
+description: This Needs To Be Added
+category: Motivation
 tags:
-  - "Philosophy"
-  - "Inspiration"
-  - "Motivation"
-description: "This Needs To Be Added"
-socialImage: "/media/image-2.jpg"
+  - Philosophy
+  - Inspiration
+  - Motivation
 ---
 
 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
