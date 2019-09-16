@@ -14,6 +14,8 @@ tags:
 ---
 Recognizing patterns allow us to predict and expect what is coming and this is what helped us survive and evolve through time. One of our biggest traits. Design Patterns in Software Development are no different, those are the patterns observed as a part of designing reusable object-oriented software.
 
+![Rabbit](/media/rabbit.jpg "What do you see? Rabbit?")
+
 > Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice - Christopher Alexander
 
 Let's say you're the manager of the famous circus in your town. And you want to provide  pre-booking to your show, how are you going to solve this problem?
