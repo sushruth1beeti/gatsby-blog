@@ -39,9 +39,22 @@ _In Software terms, design patterns are descriptions of communicating objects an
 
 ## Types Of Design Patterns:
 
-According to the Gang Of Four (the four authors who wrote about design patterns in software development\
-) design patterns can be broadly divided into three categories:
+According to the Gang Of Four (the four authors who wrote about design patterns in software development) design patterns can be broadly divided into three categories under the criteria of _purpose_:
 
-* **Creational Patterns:** 
-* **Structural Patterns:**
-* **Behavorial Patterns:**
+* **Creational Patterns:** Creational patterns concern the process of object creation, according to the situation, creation of objects may need more sophisticated way of creation process.
+* **Structural Patterns:** Structural patterns deal with the composition of classes or objects, sometimes we may require objects and classes arranged into a structure or hierarchy, that ease the way to realise relationships between objects or classes.
+* **Behavorial Patterns:** Behavioral patterns characterize the ways in which classes or objects interact and distribute responsibility. These patterns sets the medium of communication between objects.
+
+Another way of categorization of design patterns is through the criteria of _scope_: scope specifies whether the pattern applies primarily to classes or to objects. The following clearly explains the categorization of design patterns by scope.
+
+![Scope In Design Patterns](/media/design-_pattern_scope.gif "Scope In Design Patterns")
+
+This is all, in the introduction of design patterns, next stop we will discuss more about each design pattern in detail.
+
+Here are the quick references about the topics mentioned:
+
+<https://www.amazon.in/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8>
+
+<https://www.amazon.in/First-Design-Patterns-Brain-Friendly/dp/0596007124>
+
+<https://sourcemaking.com/design_patterns/>
