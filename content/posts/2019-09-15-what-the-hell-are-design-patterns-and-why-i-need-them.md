@@ -10,7 +10,8 @@ description: >
   Patterns in Software Development are no different.
 category: 'Design Patterns '
 tags:
-  - Design Patterns  GOF
+  - Design Patterns
+  - GOF
 ---
 Recognizing patterns allow us to predict and expect what is coming and this is what helped us survive and evolve through time. One of our biggest traits. Design Patterns in Software Development are no different, those are the patterns observed as a part of designing reusable object-oriented software.
 
@@ -24,7 +25,7 @@ _TICKETS!!_ You can give all your audience tickets after pre-booking, which they
 
 ## Definition:
 
-Design patterns make it easier to reuse successful designs and architectures. Expressing proven techniques as design patterns makes them more accessible to developers of new systems. Design patterns help you choose design alternatives that make a system reusable and avoid alternatives that compromise reusability. _Put simply, design patterns help a designer get a design "right" faster._ 
+Design patterns make it easier to reuse successful designs and architectures. Expressing proven techniques as design patterns makes them more accessible to developers of new systems. Design patterns help you choose design alternatives that make a system reusable and avoid alternatives that compromise reusability. _Put simply, design patterns help a designer get a design "right" faster._
 
 _In Software terms, design patterns are descriptions of communicating objects and classes that are customized to solve a general design problem in a particular context._
 
@@ -32,10 +33,10 @@ _In Software terms, design patterns are descriptions of communicating objects an
 
 ## Elements In A Design Pattern:
 
-* **Pattern Name:** Naming a pattern is very important, it gives us the higher-level abstraction of what the pattern is about. It makes it easier to think about designs and to communicate them and their trade-offs to others. Finding good names is equally hard. 
+* **Pattern Name:** Naming a pattern is very important, it gives us the higher-level abstraction of what the pattern is about. It makes it easier to think about designs and to communicate them and their trade-offs to others. Finding good names is equally hard.
 * **Problem:** The problem describes when to apply the pattern. It explains the problem and its context. It might describe specific design problems such as how to represent algorithms as objects.
 * **Solution:** The solution describes the elements that make up the design, their relationships, responsibilities, and collaborations. The solution doesn't describe a particular concrete design or implementation, because a pattern is like a template that can be applied in many different situations. So the solution needs to fine tuned according to the domain you're working on.
-* **Consequences:** The consequences are the results and trade-offs of applying the pattern. They are critical for evaluating design alternatives and for understanding the costs and benefits of applying the pattern. The consequences for software often concern space and time trade-offs. 
+* **Consequences:** The consequences are the results and trade-offs of applying the pattern. They are critical for evaluating design alternatives and for understanding the costs and benefits of applying the pattern. The consequences for software often concern space and time trade-offs.
 
 ## Types Of Design Patterns:
 
