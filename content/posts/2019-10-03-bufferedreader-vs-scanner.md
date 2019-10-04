@@ -42,3 +42,9 @@ _Putting it all together:_
 * _BufferedReader is synchronous while Scanner is not. BufferedReader should be used if we are working with multiple threads._
 * _BufferedReader has significantly larger buffer memory than Scanner.The Scanner has a little buffer (1KB char buffer) as opposed to the BufferedReader (8KB byte buffer), but it’s more than enough._
 * _BufferedReader is a bit faster as compared to scanner because scanner does parsing of input data and BufferedReader simply reads sequence of characters._
+
+Excellent resources on InputStream, OutputStreams, Readers, BufferedReaders:
+
+<http://tutorials.jenkov.com/java-io/inputstream.html>
+
+<https://www.stackchief.com/blog/FileReader%20vs%20BufferedReader%20vs%20Scanner%20%7C%20Java>
