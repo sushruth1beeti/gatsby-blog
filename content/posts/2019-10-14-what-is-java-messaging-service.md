@@ -3,7 +3,7 @@ template: post
 title: What Is Java Messaging Service
 slug: /jms
 draft: false
-date: 2019-10-01T04:55:00.000Z
+date: 2019-10-14T04:55:00.000Z
 description: >-
   Java Message Service (JMS) API, a Java API that allows applications to create,
   send, receive, and read messages using reliable, asynchronous, loosely coupled
