@@ -70,4 +70,12 @@ With lambda expressions:
 
 `Runnable r = () -> {System.out.println("My Runnable");};`
 
+
+
+# Java Stream API
+
+This is one of the best features according to me in Java 8. It becomes so much easier to work with collections with stream api. Collection interface has been extended with stream() and parallelStream() default methods to get the Stream for sequential and parallel execution.  We can use map/filter/reduce function along side stream, and lambda functions work very well these.
+
+Unlike traditional collections, stream doesn't store data in memory, it works on-demand, it operates on the source data structure (collection and array) and produce pipelined data that we can use and perform specific operations. Such as we can create a stream from the list and filter it based on a condition.
+
 - - -
