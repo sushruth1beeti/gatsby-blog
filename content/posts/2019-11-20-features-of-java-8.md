@@ -44,8 +44,30 @@ Important points:
 * We can’t define interface static method for Object class methods, we will get compiler error as “This static method cannot hide the instance method from Object”. This is because it’s not allowed in java, since Object is the base class for all the classes and we can’t have one class level static method and another instance method with same signature.
 * We can use java interface static methods to remove utility classes such as Collections and move all of it’s static methods to the corresponding interface, that would be easy to find and use.
 
+## Functional Interfaces And Lambda Functions:
+
 **Functional Interface:**
 
 A new annotation @FunctionalInterface has been introduced to mark an interface as Functional Interface. @FunctionalInterface annotation is a facility to avoid accidental addition of abstract methods in the functional interfaces. It’s optional but good practice to use it.
 
 Functional interfaces are long awaited and much sought out feature of Java 8 because it enables us to use lambda expressions to instantiate them. A new package java.util.function with bunch of functional interfaces are added to provide target types for lambda expressions and method references.
+
+Since functional interfaces have only one abstract method, it is easier to work with lambda expressions, we only need to work with arguments and business logic, and can eliminate instantiating class object, and invoking method.
+
+Without lambda expressions:
+
+`Runnable r = new Runnable(){`
+
+`@Override`
+
+`public void run() {`
+
+`System.out.println("My Runnable");`
+
+`}};`
+
+With lambda expressions:
+
+`Runnable r = () -> {System.out.println("My Runnable");};`
+
+- - -
