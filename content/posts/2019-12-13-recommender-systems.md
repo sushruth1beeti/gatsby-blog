@@ -64,4 +64,8 @@ A content-based recommender works with data that the user provides, either expli
 
 ## Collaborative Filtering:
 
+Collaborative filtering (CF) systems work by collecting user feedback in the form of ratings for items in a given domain and exploiting similarities in rating behavior among several users in determining how to recommend an item.
+
+CF accumulates customer product ratings, identifies customers with common ratings, and offers recommendations based on inter-customer comparisons. It’s based on the idea that people who agree in their evaluations of certain items in the past are likely to agree again in the future. For example, most people ask their trusted friends for restaurant or movie suggestions.
+
 ![User Based CF vs Item Based CF](/media/collaborative.jpeg "User Based CF vs Item Based CF")
