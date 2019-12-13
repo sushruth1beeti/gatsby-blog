@@ -2,7 +2,7 @@
 template: post
 title: Recommender Systems
 slug: /recommender-systems
-draft: false
+draft: true
 date: 2019-12-13T05:31:09.695Z
 description: >-
   Recommender Systems have become an integral part to many internet businesses.
@@ -42,7 +42,7 @@ We'll talk about all these filtering methods more in detail.
 
 ![Colloborative Filtering vs Content Filtering](/media/recommender.jpeg "Colloborative Filtering vs Content Filtering")
 
-**Content Based Filtering:**
+## **Content Based Filtering:**
 
 Given user preferences for items, recommend similar items based on a domain-specific notion of item content. This approach also extends naturally to cases where item metadata is available (e.g., movie stars, book authors, and music genres).
 
@@ -61,3 +61,7 @@ A content-based recommender works with data that the user provides, either expli
 **Limited content analysis:** If the content doesn’t contain enough information to discriminate the items precisely, the recommendation itself risks being imprecise.
 
 **Over-specialization:** Content-based filtering provides a limited degree of novelty, since it has to match up the features of a user’s profile with available items. In the case of item-based filtering, only item profiles are created and users are suggested items similar to what they rate or search for, instead of their past history. A perfect content-based filtering system may suggest nothing unexpected or surprising.
+
+## Collaborative Filtering:
+
+![User Based CF vs Item Based CF](/media/collaborative.jpeg "User Based CF vs Item Based CF")
