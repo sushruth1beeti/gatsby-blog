@@ -2,7 +2,7 @@
 template: post
 title: Recommender Systems
 slug: /recommender-systems
-draft: true
+draft: false
 date: 2019-12-13T05:31:09.695Z
 description: >-
   Recommender Systems have become an integral part to many internet businesses.
@@ -39,6 +39,8 @@ Talking technically, information filtering can be divided into three types:
 * **Hybrid Filtering:** A hybrid approach, combining collaborative filtering and content-based filtering also exists.
 
 We'll talk about all these filtering methods more in detail.
+
+![Colloborative Filtering vs Content Filtering](/media/recommender.jpeg "Colloborative Filtering vs Content Filtering")
 
 **Content Based Filtering:**
 
