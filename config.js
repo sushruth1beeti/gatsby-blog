@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https:/watilearnt.com',
+  url: 'https://watilearnt.com',
   pathPrefix: '/',
   title: 'Blog by Sushruth Beeti',
   subtitle: 'Learning To Build Things. Building To Learn Things',
@@ -29,7 +29,7 @@ module.exports = {
     photo: '/avatar.jpg',
     bio: ' A blog about all the interesting stuff that I learnt as an everyday software developer.',
     contacts: {
-      email: 'f20150513h@bits-pilani.ac.in',
+      email: 'f20150513h@alumni.bits-pilani.ac.in',
       facebook: 'beetisushruth',
       telegram: '#',
       twitter: '#',
