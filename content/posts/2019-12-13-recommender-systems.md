@@ -69,3 +69,19 @@ Collaborative filtering (CF) systems work by collecting user feedback in the for
 CF accumulates customer product ratings, identifies customers with common ratings, and offers recommendations based on inter-customer comparisons. It’s based on the idea that people who agree in their evaluations of certain items in the past are likely to agree again in the future. For example, most people ask their trusted friends for restaurant or movie suggestions.
 
 ![User Based CF vs Item Based CF](/media/collaborative.jpeg "User Based CF vs Item Based CF")
+
+As you can see from the picture, it describes two types of collaborative filtering methods:
+
+* **User-based filtering**: A one liner to explain this would be "Users similar to you were also interested in". We filter out all the users who are most similar to the target user, and recommend him, the items which majority of them were interested in , which he didn't see or rate yet.
+* **Item-based filtering**: A one liner to explain this would be "Users who were interested in this item were also interested in". Well, this may sound the same as User-based filtering, but there's a lot of difference on how we arrive at generating recommendations. We find out what are the items, that were also viewed or bought along with the target item, then we recommend the user these items which he hasn't seen.
+
+A major appeal of collaborative filtering is that it is domain free, yet it can address data aspects that are often elusive. But collaborative filtering suffers from what is called the cold start problem, due to its inability to address the system’s new products and users. In this aspect, content filtering performs much better.
+
+Two primary areas of collaborative filtering are:
+
+* **Neighborhood methods**: Neighborhood methods are focused on computing the relationships between items or between users. The item oriented approach evaluated a user's preference for an item based on ratings of "neighboring" items by the same user.
+* **Latent factor methods (Matrix Factorization):**  Latent factors models try to break down the user-item co-occurrence matrix into user matrix, item matrix. N number of latent factors are used to explain the interests or features of  a user. The discovered factors might explain obvious features of the domain, or may also correspond to much complex features. In a single liner, matrix factorization generalizes the data by reducing the dimensionality in such way where we observe useful patterns.
+
+![matrix factorization](/media/blah.png "matrix factorization")
+
+There are many algorithms that are available for matrix factorization, like AlternatingLeastSquares, Stochastic Gradient Descent, Single Value Decomposition, Logistic Matrix Factorization. I will try writing more about these algorithms in detail in the future blogs.
