@@ -2,7 +2,7 @@
 template: post
 title: Complete Java Master Series
 slug: /java-master-series
-draft: true
+draft: false
 date: 2021-06-04T14:51:23.412Z
 description: >-
   In this blog, I talk about why I have decided to start a complete JAVA Master
