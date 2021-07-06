@@ -12,7 +12,7 @@ tags:
   - Java
   - OOP
 ---
-I know that it's been ages since I wrote my last blog. A lot was happening in my life and I thought I would share all that in this blog. But before that, I was recently feeling happy that I received my first comment on one of my blogs, but turns out it was a troll :(. It basically says "No originality in your blogs, you copy-paste stuff, haha". Well, yes I only write what I learned from the internet, books, or my colleagues. That's my blog's name FFS. Most of my blogs are like notes I like to maintain on select topics.
+I know that it's been ages since I wrote my last blog. A lot was happening in my life and I thought I would share all that in this blog. But before that, I was recently feeling happy that I received my first comment on one of my blogs, but turns out it was a troll :(. It basically says "No originality in your blogs, you copy-paste stuff, haha". Well, yes I only write what I learned from the internet, books, or my colleagues. That's my blog's name. Most of my blogs are like notes I like to maintain on select topics.
 
 ![RIT Campus](/media/campusdrone.jpg "RIT Campus")
 
@@ -26,19 +26,17 @@ So I need to prepare to attend the bridge examinations for these courses. If you
 
 This is the rough estimate of the topics that I'm going to be writing about, which is basically my test syllabus :P
 
-
-
 1. Introduction to Java
 2. Java Programming Basics
 3. Inheritance
 4. Abstraction
 5. Polymorphism
 6. Encapsulation
-7. 
-   Exceptions
+7. Exceptions
 8. Event Handling
 9. Input/Output: Files and Streams
-10. Design Patterns (Creational Patterns, Structural Patterns, Behavioral Pattern, Concurrency Pattern) (Yay now I can finally finish the Design Patterns series, which I promised like a year ago)
+10. Design Patterns (Creational Patterns
+    , Structural Patterns, Behavioral Pattern, Concurrency Pattern) (Yay now I can finally finish the Design Patterns series, which I promised like a year ago)
 11. Remote Method Invocation Framework (I've no idea what this is)
 12. Collection Class Framework
 
