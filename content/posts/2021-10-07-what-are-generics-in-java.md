@@ -2,7 +2,7 @@
 template: post
 title: Generics in Java
 slug: /generics
-draft: true
+draft: false
 date: 2021-10-07T23:37:55.375Z
 description: 'In this blog, we learn about generics in java and why we need to use them.'
 category: java
@@ -115,7 +115,7 @@ If you were to call the above 'compare' method by creating an object of this cla
 myObject.<T1, T2, T3>compare(map, list);
 ```
 
-But you don't have to put the angled brackets every time you invoke a method of the class. The compiler will infer the types that are required. This is called **inference**. 
+But you don't have to put the angled brackets every time you invoke a method of the class. The compiler will infer the types that are required. This is called **inference**. This also works with constructors which is called constructor inference.
 
 ```
 myObject.compare(map, list); // type parameters <T1, T2, T3> are inferred
@@ -153,23 +153,48 @@ If I had asked you what all class types can T3, T4, T5 be? _We know that T3 can 
 
 Object o = new String("5") is this a valid assignment? _Yes, by inheritance we know that child objects can be upcasted to parent's class reference. Object is a parent for every class hence this is valid._
 
-ArrayList<Object> a = new ArrayList<String>(); is this a valid assignment ? _No, we need to observe that ArrayList<Object> is not the parent class for ArrayList<String>. This would be valid: Object a = new ArrayList<String>(); Object is a parent class for ArrayList class._
+ArrayList<Object> a = new ArrayList<String>(); is this a valid assignment ? No, we need to observe that ArrayList<Object> is not the parent class for ArrayList<String>. This would be valid: Object a = new ArrayList<String>(); Object is a parent class for ArrayList class.
 
-**Subtyping**: 
-
-
-**Lower bounded** type parameters serves the same purpose as upper bounded type parameter but it defines the lower bound for type parameter.
+**Subtyping:** You can subtype an generic class by extending or implementing it. The relationship between the type parameters of one class or interface and the type parameters of another are determined by the extends and implements clauses. An example given below:
 
 ```
-// example of class signature using lower bounded type parameter
-// parameter V must extend T, meaning V is upper bounded by T
-
-class MyHashMap<K, T, V extends T> {}
+public class A<T1, T2 extends T3> extends B<T1> {}
 ```
 
+In the above example you have subtyped class A with B. A<String, Integer extends Number> is a subtype of B<String>.
+
+**Wildcard Types:** The wildcard types (?) are used when you don't want to explicitly specify a type parameter, or for an unknown type. List<?> this is a list of an unknown type. Main use of wildcard is for writing methods or classes which provide common functionality for multiple types. Or when you want to write methods or classes that doesn't depend on a specific type.
+
+**Examples:**
+
 ```
-// example of method signature using lower bounded type parameter
-// parameter T3 must extend T1, meaning T3 is upper bounded by T1
- 
-public static <T1, T2, T3 super T1> boolean compare(Map<T1, T2> p, List<T3> b) 
+// this method prints any list of all types 
+public void printList(List<?> list) {// prints list}
 ```
+
+**Quick Question:**
+What is the difference between List<Object> listA and another List<?> listB both initialised? you can add any child class of object to listA, but you can only add null to listB. 
+
+Lower bounded type parameters allows us to restrict the types that can be used as type parameters, it creates the lower bound of classes we can use as type parameters.
+
+```
+public void method1(Map<String, ? super Integer> a){}
+```
+
+In the example above, ? super Integer is lower bounded by class Integer, so types Number, Object would be valid to pass.
+
+## **Wildcards and subtyping:**
+
+In the above topics, we have discussed that List<String>, List<Object> are not in the same inheritance, meaning they are not child and parent. But using wildcard you could create that inheritance if you wanted. The code would look like this:
+
+```
+// taken from javadocs
+List<? extends Integer> intList = new ArrayList<>(); 
+List<? extends Number>  numList = intList;
+```
+This works because intList can be any subclass from Integer and below. numList can be any subclass from Number and below. So List<? extends Number> can be thought of as a valid parent class of List<? extends Integer>
+```
+List<? super Number> numList = new ArrayList<>();
+List<? super Integer> intList = numList;
+```
+The same is true if you use super types instead.
