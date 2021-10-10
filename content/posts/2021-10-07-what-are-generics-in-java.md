@@ -13,7 +13,7 @@ tags:
 
 The main use to introduce generics in java is for type safety. What do I mean by "type safety"? Before generics, if I wanted to store an object type in a list of strings I could do it. I only need to typecast it back to string whenever I want to access it as a string. The problem with this is that,  I could also store an Integer in the list of strings by upcasting it to object. To counter this, generics was introduced as it will force you to determine what type of objects you want to use before runtime.
 
-**_Without Generics:_**
+_**Without Generics:**_
 
 ```
         List l = new ArrayList();
@@ -24,7 +24,7 @@ The main use to introduce generics in java is for type safety. What do I mean by
         String s = (String)l.get(1); // this will give runtime error
 ```
 
-**_With Generics:_**
+_**With Generics:**_
 
 ```
         List<Integer> l = new ArrayList<Integer>();
@@ -153,7 +153,11 @@ If I had asked you what all class types can T3, T4, T5 be? _We know that T3 can 
 
 Object o = new String("5") is this a valid assignment? _Yes, by inheritance we know that child objects can be upcasted to parent's class reference. Object is a parent for every class hence this is valid._
 
-ArrayList<Object> a = new ArrayList<String>(); is this a valid assignment ? No, we need to observe that ArrayList<Object> is not the parent class for ArrayList<String>. This would be valid: Object a = new ArrayList<String>(); Object is a parent class for ArrayList class.
+```
+ArrayList<Object> a = new ArrayList<String>(); 
+```
+
+Is the above code a valid assignment ? No, we need to observe that ArrayList<Object> is not the parent class for ArrayList<String>. This would be valid: Object a = new ArrayList<String>(); Object is a parent class for ArrayList class.
 
 **Subtyping:** You can subtype an generic class by extending or implementing it. The relationship between the type parameters of one class or interface and the type parameters of another are determined by the extends and implements clauses. An example given below:
 
@@ -173,7 +177,7 @@ public void printList(List<?> list) {// prints list}
 ```
 
 **Quick Question:**
-What is the difference between List<Object> listA and another List<?> listB both initialised? you can add any child class of object to listA, but you can only add null to listB. 
+What is the difference between List< Object> listA and another List<?> listB both initialised? you can add any child class of object to listA, but you can only add null to listB. 
 
 Lower bounded type parameters allows us to restrict the types that can be used as type parameters, it creates the lower bound of classes we can use as type parameters.
 
@@ -192,9 +196,12 @@ In the above topics, we have discussed that List<String>, List<Object> are not i
 List<? extends Integer> intList = new ArrayList<>(); 
 List<? extends Number>  numList = intList;
 ```
+
 This works because intList can be any subclass from Integer and below. numList can be any subclass from Number and below. So List<? extends Number> can be thought of as a valid parent class of List<? extends Integer>
+
 ```
 List<? super Number> numList = new ArrayList<>();
 List<? super Integer> intList = numList;
 ```
+
 The same is true if you use super types instead.
